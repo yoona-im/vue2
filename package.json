@@ -1,0 +1,21 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "vue 源码",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -c -w"
+  },
+  "author": "Trixie",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^3.20.1",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2"
+  }
+}

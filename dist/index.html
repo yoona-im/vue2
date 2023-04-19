@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">{{message}}</div>
+    <script src="./vue.js"></script>
+    <script>
+        let vm = new Vue({
+            el: '#app',
+            data(){
+                console.log(this)
+                return {
+                    message: 'Hellow Vue',
+                    obj: {
+                        key: 'val',
+                        obj_lv2: {
+                            key2: 'val'
+                        }
+                    },
+                    list: [1, 2, 3]
+                }
+            }
+        })
+        console.log(vm)
+        console.log(vm.message)
+    </script>
+</body>
+</html>
