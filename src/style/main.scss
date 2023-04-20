@@ -1,0 +1,146 @@
+@import './common.scss';
+
+body {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+  }
+  #app {
+    height: 100%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+// 公共样式文件：可写入项目中用到公共样式
+.el-form-item__label {
+    font-weight: normal !important;
+}
+
+/* 表格 */
+.header_cell_style {
+    background-color: #f0f3f6 !important;
+    color: #262626;
+    font-weight: bold;
+    height: 40px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.cell_style {
+    color: #262626;
+    font-size: 14px;
+    height: 40px;
+    padding: 0;
+}
+
+// 按钮
+
+.el-button.el-button--default.is-plain {
+    color: #0480ff;
+    border-color: #0480ff;
+  }
+  
+.el-button.is-disabled.is-plain,
+.el-button.is-disabled.is-plain:focus,
+.el-button.is-disabled.is-plain {
+    background-color: #FFF;
+    border-color: #EBEEF5;
+    color: #C0C4CC;
+  }
+
+/* 滚动条 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+// 表单
+.el-form-item__label {
+    font-weight: normal;
+    padding-right: 0;
+}
+
+// 弹窗
+.el-dialog__header {
+    border-bottom: 1px solid #DFE2EB !important;
+    height: 48px;
+    padding: 0 20px;
+}
+
+.el-dialog__title {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 48px;
+}
+
+.el-dialog__body {
+  padding: 16px 24px;
+}
+
+.el-dialog__headerbtn {
+  top: 13px;
+}
+
+.tip_dialog .el-dialog__header {
+    border-bottom: none !important;
+}
+  
+.tip_dialog .el-dialog__body {
+  padding-top: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: rgba(159, 163, 166, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(159, 163, 166, 0.5);
+}
+
+::-moz-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-moz-scrollbar-thumb {
+    border-radius: 4px;
+    background: rgba(159, 163, 166, 0.3);
+}
+
+::-moz-scrollbar-thumb:hover {
+    background: rgba(159, 163, 166, 0.5);
+}
+
+::-ms-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-ms-scrollbar-thumb {
+    border-radius: 4px;
+    background: rgba(159, 163, 166, 0.3);
+}
+
+::-ms-scrollbar-thumb:hover {
+    background: rgba(159, 163, 166, 0.5);
+}
+
+::-o-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-o-scrollbar-thumb {
+    border-radius: 4px;
+    background: rgba(159, 163, 166, 0.3);
+}
+
+::-o-scrollbar-thumb:hover {
+    background: rgba(159, 163, 166, 0.5);
+}
